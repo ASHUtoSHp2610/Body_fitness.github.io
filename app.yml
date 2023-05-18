@@ -1,0 +1,8 @@
+runtime: python37
+
+handlers:
+- url: /.*
+  script: login.py
+
+env_variables:
+  APP_VERSION: latest
